@@ -1,0 +1,54 @@
+header {
+  border-width: 1px; 
+  border-color: goldenrod;
+  border-style: solid;
+  
+}
+header > ul li{
+  list-style: none;
+  display: inline;
+  padding-left: 90px;
+  /* border: 1px solid blue; */
+}
+
+.disabled {
+  color: gray;
+}
+
+a {
+  color: purple;
+}
+
+.active {
+  color: yellow;
+}
+
+
+
+.parent > div > div {
+  color: red;
+}
+.parent > div > div + h4 + div {
+  color: blue;
+}
+
+h4 + div > div + h4 {
+  background-color: red;
+}
+
+div > div + h4 + div + h4 {
+  background-color: blue;
+}
+
+
+.grandparent > h4 {
+  border: 1px black solid;
+  border-radius: 25px;
+}
+.promo {
+  font-weight: bold;
+  color: gold;
+}
+input {
+  height: 25px;
+}
